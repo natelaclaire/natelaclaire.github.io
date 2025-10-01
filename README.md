@@ -1,66 +1,75 @@
-<h1 align="center">🌲 Linktree</h1>
-<h3 align="center">Simple site to group all my profiles on social networks in one place.</h3>
+# Nate LaClaire - Personal Link Hub
 
-<p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/johnggli/linktree?color=04D361&labelColor=000000">
-  
-  <a href="https://www.linkedin.com/in/johnggli/">
-    <img alt="Made by" src="https://img.shields.io/static/v1?label=made%20by&message=John%20Emerson&color=04D361&labelColor=000000">
-  </a>
-  
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/johnggli/linktree?color=04D361&labelColor=000000">
-  
-  <a href="https://github.com/johnggli/linktree/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/johnggli/linktree?color=04D361&labelColor=000000">
-  </a>
-</p>
+A modern, responsive Linktree-style website showcasing personal links and social media profiles.
 
-<p align="center">
-  <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
-</p>
+## Features
 
----
+- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
+- **Modern UI**: Clean, minimalist design with smooth animations
+- **Dark Mode Support**: Automatically adapts to system preferences
+- **Interactive Elements**: Hover effects, click animations, and smooth transitions
+- **Accessibility**: Keyboard navigation support and proper ARIA labels
+- **Social Media Integration**: Quick links to all your social profiles
 
-<p align="center">
-  <img alt="screenshot" src="screenshot.png">
-</p>
+## Customization
 
----
+### Profile Information
+Edit the following in `index.html`:
+- Replace "Nate LaClaire" with your name
+- Update the bio text
+- Add your profile image as `profile.jpg` (120x120px recommended)
 
-## 💡 About the project
+### Links
+Modify the `.links-section` in `index.html`:
+- Update URLs to point to your actual websites
+- Change link text and icons as needed
+- Add or remove links by copying the `.link-button` structure
 
-This is an open source project that serves as a free alternative to the Linktree website.
-- [Demo](https://johnggli.github.io/linktree)
+### Social Media
+Update the `.social-section` in `index.html`:
+- Replace placeholder URLs with your actual social media profiles
+- Add or remove social platforms as needed
+- Icons use Font Awesome - find more at [fontawesome.com](https://fontawesome.com/icons)
 
-## 🚀 Getting started
+### Styling
+Customize colors and styling in `style.css`:
+- Change the gradient background
+- Modify button colors and hover effects
+- Adjust fonts and spacing
+- Update the color scheme
 
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
-[Download the ZIP from this location](https://github.com/johnggli/linktree/archive/master.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
-```bash
-git clone https://github.com/johnggli/linktree
+## File Structure
+
 ```
-- Once the files are on your machine, open the _linktree_ folder in [Visual Studio Code](https://code.visualstudio.com/).
-- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-- Change the profile image and texts in the `index.html` file.
-- Change the colors and fonts in the `style.css` file.
-- To change the background, go to the `style.css` file on line 17, uncomment the code snippet and change the url to whatever image you want.
+├── index.html          # Main HTML file
+├── style.css           # Stylesheet with animations and responsive design
+├── script.js           # JavaScript for interactions and animations
+├── profile.jpg         # Your profile picture (add this file)
+└── README.md           # This file
+```
 
-## 🤔 How to contribute
+## Setup
 
-- Fork this repository;
-- Create a branch with your feature: `git checkout -b my-feature`;
-- Commit your changes: `git commit -m "feat: my new feature"`;
-- Push to your branch: `git push origin my-feature`.
+1. Add your profile picture as `profile.jpg`
+2. Update all the links in `index.html` with your actual URLs
+3. Customize the styling in `style.css` if desired
+4. Open `index.html` in a web browser or deploy to a web server
 
-Once your pull request has been merged, you can delete your branch.
+## Browser Support
 
-## 📝 License
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge
+- Mobile browsers
 
-This project is under the MIT license. See the [LICENSE](LICENSE.md) file for more details.
+## Technologies Used
 
----
+- HTML5
+- CSS3 (Grid, Flexbox, Animations)
+- Vanilla JavaScript
+- Font Awesome Icons
 
-Made with ❤️ by John Emerson :wave: [Get in touch](https://johnggli.github.io/linktree)
+## License
+
+Feel free to use and modify this template for your personal use!
