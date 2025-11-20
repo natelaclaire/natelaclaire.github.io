@@ -163,6 +163,20 @@ body {
     left: 100%;
 }
 
+/* VCF Contact Button - Special Styling */
+.vcf-button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-color: transparent;
+    font-weight: 600;
+}
+
+.vcf-button:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    box-shadow: 0 12px 30px rgba(102, 126, 234, 0.4);
+    transform: translateY(-3px);
+}
+
 /* Social Media Section */
 .social-section {
     display: flex;

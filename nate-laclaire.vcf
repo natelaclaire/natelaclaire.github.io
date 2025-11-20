@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Nate LaClaire
+N:LaClaire;Nate;;;
+EMAIL;TYPE=INTERNET:nate@natelaclaire.com
+TEL;TYPE=CELL:+1-207-212-2228
+URL:https://natelaclaire.dev
+URL;TYPE=LinkedIn:https://linkedin.com/in/natelaclaire
+URL;TYPE=GitHub:https://github.com/natelaclaire
+URL;TYPE=Twitter:https://x.com/natelaclaire
+REV:2025-11-20T00:00:00Z
+END:VCARD
